@@ -1,3 +1,5 @@
+package src;
+
 public class SaleMachine {
     private int countOfBeer, countOfOrangeJuice, countOfFiveCents, countOfOneDollar;
     private String[] typeOfGoods = { "Beer", "OrangeJuice" };

@@ -14,7 +14,7 @@ var KindOfTri map[int]string = map[int]string{
 	0: "Equilateral",
 	1: "Isosceles",
 	2: "Scalene",
-	3: "Not A Triangle",
+	3: "NotATriangle",
 }
 
 var (
@@ -44,7 +44,7 @@ func main() {
 	//		}
 	//		break
 	//	}
-	fmt.Scanf("%d%d%d", &a, &b, &c)
+	//	fmt.Scanf("%d%d%d", &a, &b, &c)
 	fmt.Println(a, b, c)
 	fmt.Println(KindOfTri[CheckingTriangleTraditional(a, b, c)])
 }
